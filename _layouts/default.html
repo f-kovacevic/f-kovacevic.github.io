@@ -42,14 +42,13 @@
                 Before that, I have obtained a MS in Mathematics from <a href="https://ethz.ch/en.html">ETH Zurich</a>, and a BS in Mathematics from <a href="https://www.bg.ac.rs/home/">University of Belgrade</a>.
               </p>
               <p>
-              My interest lies at the interestion of mathematics and machine learning. More specifically, I am currently exploring the use of high-dimensional probability, random matrix theory and information theory to provide theoretical gurantees for algorithm analysis.
+              I am interested in the theoretical foundations of machine learning, using tools and ideas from high-dimensional statistics, random matrix theory, and learning theory. Recently, I’ve been focusing broadly on questions of sample efficiency, and particularly data selection, transfer learning, and the role of data reuse in optimization.
               </p>
               <p style="text-align:center">
                 <a target="_blank" href="https://mailhide.io/e/wdqH7LmF"> Email</a> &nbsp;/&nbsp;
                 <a href="/pdfs/CV.pdf"> CV </a> &nbsp;/&nbsp;
-                <a href="https://github.com/f-kovacevic">GitHub</a> &nbsp;/&nbsp;
                 <a href="https://scholar.google.com/citations?user=x-lmjSEAAAAJ&hl=en&oi=ao">Google Scholar</a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/filip-kovacevic-04a75716b/"> LinkedIn </a>
+                <a href="https://linkedin.com/in/filip-kovacevic-04a75716b/"> LinkedIn </a>
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -61,7 +60,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Publications</h2>
+              <h2>Publications and Preprints</h2>
             </td>
           </tr>
         </table>
@@ -71,10 +70,14 @@
           {% for cat in post.categories %}
           {% if cat == 'research' %}
           <tr>
+            {% if site.show_publication_images %}
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
+            {% else %}
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+            {% endif %}
               <h3>{{post.title}}</h3>
               <br>
               {{post.authors}}
@@ -118,14 +121,14 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Teaching</h2>
+              <h2>Teaching and Service</h2>
+              <p>Reviewer (Conferences): ICML 2026 (Gold Reviewer), ICLR 2026</p>
+              <p>Reviewer (Journals): TMLR, Mathematical Foundations of Machine Learning</p>
+              <p>ETH Zurich, TA: Linear Algebra (Spring 2022), Algebra 1 (Spring 2023), Algebra 2 (Fall 2023)</p>
+              <p>University of Belgrade, TA: Linear Algebra (Fall 2020)</p>
             </td>
           </tr>
         </table>
-        <p> ETH Zurich, TA: Linear Algebra (Spring 2022), Algebra 1 (Spring 2023), Algebra 2 (Fall 2023)</p>
-        <p> University of Belgrade, TA: Linear Algebra (Fall 2020)</p>
-
-
 
         <!--
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">

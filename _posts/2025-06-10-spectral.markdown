@@ -8,6 +8,8 @@ author: "Filip Kovačević, Yihan Zhang, Marco Mondelli"
 authors: "<strong>Filip Kovačević</strong>, Yihan Zhang, Marco Mondelli"
 venue: "COLT"
 arxiv: https://arxiv.org/abs/2502.01583
+poster: Spectral_Multi_index_poster.pdf
+video: https://www.youtube.com/watch?v=91VmM8l14kI
 code: 
 website:
 ---

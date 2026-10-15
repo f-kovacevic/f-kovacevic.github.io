@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "High-dimensional Analysis of Synthetic Data Selection"
+date:   2026-05-01 20:00:00 +00:00
+image: /images/spectral_threshold_icon.png
+categories: research
+author: "Parham Rezaei, Filip Kovačević, Francesco Locatello, Marco Mondelli"
+authors: "Parham Rezaei, <strong>Filip Kovačević</strong>, Francesco Locatello, Marco Mondelli"
+venue: "ICLR, Oral"
+arxiv: https://arxiv.org/abs/2510.08123
+video: https://iclr.cc/virtual/2026/oral/10008921
+poster: High-dimensional Analysis of Synth data poster poster.pdf
+code: 
+website:
+---
+We analyze data augmentation with generative models from a random matrix theory perspective, revealing the importance of matching the covariance when augmenting real data.
