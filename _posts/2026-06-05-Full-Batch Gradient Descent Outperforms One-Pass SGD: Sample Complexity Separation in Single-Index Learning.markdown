@@ -9,7 +9,7 @@ authors: "<strong>Filip Kovačević</strong>, Hong Chang Ji, Denny Wu, Mahdi Sol
 venue: "ICML"
 arxiv: https://arxiv.org/abs/2602.02431
 video: https://icml.cc/virtual/2026/poster/64169
-poster: Full batch poster.pdf
+poster: /pdfs/Full batch poster.pdf
 code: 
 website:
 ---
